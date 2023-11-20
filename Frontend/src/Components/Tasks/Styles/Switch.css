@@ -1,0 +1,59 @@
+.highlight {
+  color: #7a7b8a;
+  font-weight: 500;
+  font-size: 0.875rem;
+  margin-left: 0.625rem;
+  line-height: 1rem;
+}
+
+.highlight.checked {
+  color: #fff;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.ant-switch {
+  background: #252330 !important;
+  height: 0.59375rem;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  width: 1.65625rem;
+  min-width: 1.65625rem;
+}
+
+.ant-switch-handle::before {
+  background-color: #393747 !important;
+  width: 1.08125rem;
+  height: 0.89375rem;
+}
+
+.ant-switch-handle {
+  left: -0.09rem !important;
+  top: -0.1625rem;
+  width: 1.08125rem;
+  height: 0.89375rem;
+}
+
+.ant-switch-checked .ant-switch-handle {
+  left: calc(100% - 1.08125rem + 0.09rem) !important;
+}
+
+.ant-switch-checked .ant-switch-handle::before {
+  background-color: #97dddd !important;
+}
+
+.ant-switch-checked {
+  background: rgba(151, 221, 221, 0.24) !important;
+}
+
+.ant-switch-checked:focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.mb-17 {
+  margin-bottom: 1.0625rem;
+}
+/*# sourceMappingURL=Switch.css.map */

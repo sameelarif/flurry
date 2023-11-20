@@ -1,0 +1,49 @@
+button.custombtn {
+  color: #fff !important;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.8125rem 0;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  max-width: 15.625rem;
+}
+
+button.custombtn.primary {
+  background-color: #97dddd;
+}
+
+button.custombtn.red {
+  background-color: #f43541;
+}
+
+button.custombtn.yellow {
+  background-color: #ffad4d;
+}
+
+button.custombtn.black {
+  background-color: #252330;
+  color: #97dddd !important;
+}
+
+button.custombtn svg {
+  margin-right: 0.3125rem;
+}
+
+button.custombtn.w-full {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+button.custombtn.small {
+  max-width: 9.375rem;
+  padding: 0.75rem 0 !important;
+}
+
+button.custombtn.m-l {
+  margin-left: 0.3125rem;
+}
+/*# sourceMappingURL=Button.css.map */

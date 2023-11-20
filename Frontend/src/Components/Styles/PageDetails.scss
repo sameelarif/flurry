@@ -1,0 +1,26 @@
+.pagedetails {
+  display: flex;
+  justify-content: space-between;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+  height: 3.75rem;
+  align-items: center;
+  .pagename {
+    color: #97dddd;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    div {
+      display: flex;
+      align-items: center;
+
+      svg {
+        margin-left: 0.5625rem;
+      }
+    }
+  }
+}
+
+svg {
+  -webkit-app-region: no-drag;
+}

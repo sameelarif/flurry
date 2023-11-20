@@ -1,0 +1,83 @@
+.activity .headers {
+  margin-top: 0.6875rem;
+}
+
+.activity .headers,
+.activity .item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.4fr 1fr 1.4fr 1.3fr 1fr;
+  grid-template-columns: 1.4fr 1fr 1.4fr 1.3fr 1fr;
+  padding: 0.625rem 1rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.activity .items {
+  max-height: 23.5vh;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.activity .items::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.activity .items::-webkit-scrollbar-track {
+  width: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.activity .items::-webkit-scrollbar-thumb {
+  background-color: #97dddd;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.activity .item:not(:first-child) {
+  margin-top: 0.5rem;
+}
+
+.activity .item {
+  background: #252330;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #ffffff;
+}
+
+.activity .type {
+  color: #97dddd;
+}
+
+.activity .headers {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  color: #7a7b8a;
+  padding-right: 2rem !important;
+}
+/*# sourceMappingURL=LatestActivity.css.map */
+
+.blurred {
+  filter: blur(4px);
+  transition: filter 0.3s ease-out;
+}
+
+.blurrable {
+  transition: filter 0.3s ease-out;
+}

@@ -1,0 +1,28 @@
+.controlbtns {
+  position: absolute;
+  top: 1.25rem;
+  right: 2.125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.mini,
+.close {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 1rem;
+  cursor: pointer;
+  height: 1rem;
+  -webkit-app-region: no-drag;
+}
+
+.mini {
+  margin-right: 0.5rem;
+}
+/*# sourceMappingURL=ControlBtns.css.map */

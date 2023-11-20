@@ -1,0 +1,81 @@
+.inputlabel {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.inputlabel.mb-21 {
+  margin-bottom: 1.3125rem;
+}
+
+.inputlabel .label {
+  margin-bottom: 0.375rem;
+  font-size: 0.875rem;
+  color: #fff;
+  line-height: 1rem;
+  font-weight: 500;
+}
+
+.inputlabel .label svg {
+  margin-left: 0.625rem;
+}
+
+.inputlabel .label span {
+  color: #97dddd;
+}
+
+.inputlabel input {
+  background-color: #1d1b26;
+  border: none;
+  outline: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: inherit;
+  color: #fff;
+  padding: 0.8125rem 1.1875rem;
+  width: 100%;
+  max-height: 52.5px;
+  border-radius: 0.3125rem;
+}
+
+.inputlabel.custom input {
+  background-color: #252330;
+}
+
+.inputlabel textarea {
+  background-color: #1d1b26 !important;
+  border: none;
+  outline: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: inherit;
+  color: #fff;
+  padding: 0.8125rem 1.1875rem;
+  width: 100%;
+  border-radius: 0.3125rem;
+  margin: 0 !important;
+  height: 80px;
+
+  white-space: pre;
+  overflow-wrap: normal;
+  overflow-x: scroll;
+}
+
+.inputlabel.custom textarea {
+  background-color: #252330 !important;
+}
+r .inputlabel ::-webkit-input-placeholder {
+  color: #7a7b8a;
+}
+
+.inputlabel :-ms-input-placeholder {
+  color: #7a7b8a;
+}
+
+.inputlabel ::-ms-input-placeholder {
+  color: #7a7b8a;
+}
+
+.inputlabel ::placeholder {
+  color: #7a7b8a;
+}
+/*# sourceMappingURL=InputLabel.css.map */

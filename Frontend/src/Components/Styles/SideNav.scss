@@ -1,0 +1,37 @@
+.sidenav {
+  background-color: #252330;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.9375rem;
+
+  .logo {
+    width: 2.0625rem;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  a {
+    width: 2.0625rem;
+    height: 2.0625rem;
+    border-radius: 0.3125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+
+    &:first-child {
+      margin-top: 1.5rem;
+    }
+
+    &.active {
+      background: #97dddd !important;
+    }
+
+    svg {
+      width: 1rem;
+    }
+  }
+}

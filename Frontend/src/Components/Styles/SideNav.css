@@ -1,0 +1,66 @@
+.sidenav {
+  background-color: #252330;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.9375rem;
+}
+
+.sidenav .logo {
+  width: 2.0625rem;
+}
+
+.sidenav .logo img {
+  width: 100%;
+}
+
+.sidenav a {
+  width: 2.0625rem;
+  height: 2.0625rem;
+  border-radius: 0.3125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.sidenav a:first-child {
+  margin-top: 1.5rem;
+}
+
+.sidenav a.active {
+  background: #97dddd !important;
+}
+
+.sidenav a svg {
+  width: 1rem;
+}
+/*# sourceMappingURL=SideNav.css.map */
+
+.sideNavItem {
+  transition: background 0.3s ease-in-out;
+}
+.sideNavItem:hover {
+  background: #97dddd !important;
+  transition: background 0.3s ease-in-out;
+}
+
+.version {
+  color: white;
+  position: fixed;
+  bottom: 10px;
+  opacity: 0.8;
+}

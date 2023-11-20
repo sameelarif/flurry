@@ -1,0 +1,29 @@
+.key {
+  padding: 2rem 2.125rem;
+  background-color: #16141e;
+  border-radius: 0.375rem;
+  border: 0.0625rem solid #312e42;
+  margin-bottom: 1.5625rem;
+
+  .smheader {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    margin-bottom: 0.4375rem;
+    color: #7a7b8a;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    margin-bottom: 1.25rem;
+    svg {
+      margin-left: 1.25rem;
+      cursor: pointer;
+    }
+  }
+}

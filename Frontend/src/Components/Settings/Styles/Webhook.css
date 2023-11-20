@@ -1,0 +1,19 @@
+.webhook .smheader {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #fff;
+}
+
+.webhook .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/*# sourceMappingURL=Webhook.css.map */

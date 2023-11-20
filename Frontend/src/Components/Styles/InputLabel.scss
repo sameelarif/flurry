@@ -1,0 +1,46 @@
+.inputlabel {
+  margin-bottom: 1rem;
+  color: #fff;
+
+  &.mb-21 {
+    margin-bottom: 1.3125rem;
+  }
+
+  .label {
+    margin-bottom: 0.375rem;
+    font-size: 0.875rem;
+    color: #fff;
+    line-height: 1rem;
+    font-weight: 500;
+
+    svg {
+      margin-left: 0.625rem;
+    }
+
+    span {
+      color: #97dddd;
+    }
+  }
+
+  input {
+    background-color: #1d1b26;
+    border: none;
+    outline: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-family: inherit;
+    color: #fff;
+    padding: 0.8125rem 1.1875rem;
+    width: 100%;
+    max-height: 52.5px;
+    border-radius: 0.3125rem;
+  }
+
+  &.custom input {
+    background-color: #252330;
+  }
+
+  ::placeholder {
+    color: #7a7b8a;
+  }
+}

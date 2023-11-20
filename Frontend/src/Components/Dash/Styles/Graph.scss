@@ -1,0 +1,23 @@
+.timespan {
+  font-size: large;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #7a7b8a;
+
+  span {
+    cursor: pointer;
+  }
+
+  span:not(:last-child) {
+    margin-right: 1.3125rem;
+  }
+
+  span.active {
+    color: #97dddd;
+  }
+}
+
+.graph {
+  height: 35vh;
+}

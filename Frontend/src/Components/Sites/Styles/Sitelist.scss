@@ -1,0 +1,41 @@
+.sitelistcontainer {
+  flex: 0 0 100%;
+  min-height: 0;
+  .sitelist {
+    overflow-y: auto;
+    height: calc(100vh - 5rem);
+
+    .site {
+      text-transform: capitalize;
+      background-color: #16141e;
+      border-radius: 0.375rem;
+      padding: 1rem 1.25rem;
+      border: 1px solid #312e42;
+      font-weight: 500;
+      font-size: 0.875rem;
+      line-height: 1rem;
+      min-height: 4.8125rem;
+      color: #7a7b8a;
+      cursor: pointer;
+      transition: all 0.25s ease-in-out;
+
+      &:hover {
+        border-color: #97dddd;
+      }
+
+      &.active {
+        background-color: #252330;
+        border-color: #97dddd;
+      }
+
+      .img {
+        width: 100%;
+        margin-bottom: 0.59375rem;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}

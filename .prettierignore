@@ -1,0 +1,6 @@
+build
+node_modules
+App/node_modules
+App/dist
+App/src/lib/db
+Frontend/node_modules

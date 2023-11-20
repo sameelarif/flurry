@@ -1,0 +1,132 @@
+.headergrid,
+.item {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr 1fr;
+  align-items: center;
+  padding: 0.75rem 1rem;
+}
+
+.headergrid {
+  color: #7a7b8a;
+  font-weight: 500;
+  padding-right: 2.5rem;
+  font-size: 0.75rem;
+  padding-top: 0;
+  line-height: 0.875rem;
+}
+
+.sectiontop {
+  .items::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .items::-webkit-scrollbar-track {
+    width: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .items::-webkit-scrollbar-thumb {
+    background-color: rgba(151, 221, 221, 1);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+}
+
+.item {
+  background-color: #252330;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid transparent;
+  transition: all 0.25s ease;
+  transition: all 0.25s ease-in-out;
+
+  div {
+    font-weight: 500;
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1rem;
+  }
+
+  div:nth-child(3) {
+    color: #7a7b8a;
+  }
+
+  div.blue {
+    color: #97dddd !important;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+  svg:not(:last-child) {
+    margin-right: 0.5625rem;
+  }
+  span {
+    margin-right: 5px;
+  }
+
+  svg {
+    cursor: pointer;
+  }
+
+  &:hover {
+    background: #393645;
+    border: 0.0625rem solid #97dddd;
+    border-radius: 0.25rem;
+  }
+
+  .active {
+    background: #393645;
+    border: 0.0625rem solid #97dddd;
+    border-radius: 0.25rem;
+  }
+}
+
+.stop,
+.edit,
+.pause {
+  transition: all 0.2s ease;
+}
+
+.stop:hover {
+  fill: #f43541;
+}
+
+.edit:hover {
+  fill: #fff;
+}
+
+.pause:hover {
+  fill: #ffad4d;
+}
+
+.l-100 {
+  line-height: 100%;
+}
+
+.items {
+  height: calc(100vh - 4.2188rem - 7.75rem);
+  overflow-y: scroll;
+  padding-right: 1rem;
+}
+
+.sectiontop {
+  padding-bottom: 1rem;
+}
+
+.sectionbottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5625rem;
+}

@@ -1,0 +1,24 @@
+.timespan {
+  font-size: large;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #7a7b8a;
+}
+
+.timespan span {
+  cursor: pointer;
+}
+
+.timespan span:not(:last-child) {
+  margin-right: 1.3125rem;
+}
+
+.timespan span.active {
+  color: #97dddd;
+}
+
+.graph {
+  height: 35vh;
+}
+/*# sourceMappingURL=Graph.css.map */

@@ -1,0 +1,39 @@
+.pagedetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+  height: 3.75rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.pagedetails .pagename {
+  color: #97dddd;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+}
+
+.pagedetails .pagename div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.pagedetails .pagename div svg {
+  margin-left: 0.5625rem;
+}
+
+svg {
+  -webkit-app-region: no-drag;
+}
+/*# sourceMappingURL=PageDetails.css.map */

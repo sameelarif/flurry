@@ -1,0 +1,8 @@
+.settings .maingrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.5rem;
+}
+/*# sourceMappingURL=Settings.css.map */

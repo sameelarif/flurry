@@ -1,0 +1,21 @@
+.controlbtns {
+  position: absolute;
+  top: 1.25rem;
+  right: 2.125rem;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+.mini,
+.close {
+  display: grid;
+  place-items: center;
+  width: 1rem;
+  cursor: pointer;
+  height: 1rem;
+}
+
+.mini {
+  margin-right: 0.5rem;
+}

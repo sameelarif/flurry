@@ -1,0 +1,56 @@
+.renewal {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+  grid-template-columns: auto 1fr;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2rem 2.125rem;
+  background-color: #16141e;
+  border-radius: 0.375rem;
+  border: 0.0625rem solid #312e42;
+  grid-gap: 1.875rem;
+  margin-top: 1.125rem;
+  margin-bottom: 1.125rem;
+}
+
+.renewal .text {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #7a7b8a;
+}
+
+.renewal .date {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  margin-top: 0.4375rem;
+  margin-bottom: 1.5625rem;
+  color: #ffffff;
+}
+
+.renewal .perc {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: -0.3125rem;
+}
+
+.renewal .days-left {
+  font-size: 0.875rem;
+  color: #7a7b8a;
+  font-weight: 500;
+  line-height: 1rem;
+  margin-top: -0.125rem;
+}
+
+.renewal .CircularProgressbar .CircularProgressbar-trail {
+  stroke: #1d1b26 !important;
+}
+
+.renewal .CircularProgressbar .CircularProgressbar-path {
+  stroke: #97dddd !important;
+}
+/*# sourceMappingURL=Renewal.css.map */

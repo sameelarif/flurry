@@ -1,0 +1,68 @@
+.auth {
+  font-family: "Roboto";
+  background-color: #1d1b26;
+  max-width: 615px;
+  height: 460px;
+  border-radius: 8px;
+  position: relative;
+  padding: 3rem 5rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.auth .logo {
+  margin-left: -1rem;
+}
+
+.auth .leaf {
+  position: absolute;
+  right: 2rem;
+  top: 0;
+}
+
+.auth .circle {
+  background-color: #f2f9ff;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.auth .circle1 {
+  width: 1.5875rem;
+  right: 48%;
+  top: 15%;
+  height: 1.5875rem;
+}
+
+.auth .circle2 {
+  width: 0.8125rem;
+  height: 0.8125rem;
+  right: 36%;
+  top: 35%;
+}
+
+.auth .circle3 {
+  width: 1.0625rem;
+  height: 1.0625rem;
+  top: 20.5%;
+  right: 20%;
+}
+
+.auth .circle4 {
+  width: 2.4375rem;
+  height: 2.4375rem;
+  right: -1.215rem;
+  top: 16%;
+}
+
+.auth .logintext {
+  font-size: 1.125rem;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1.3125rem;
+}
+
+.auth .logintext span {
+  color: #97dddd;
+}
+/*# sourceMappingURL=Auth.css.map */

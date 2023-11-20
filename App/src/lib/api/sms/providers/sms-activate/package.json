@@ -1,0 +1,20 @@
+{
+  "name": "sms-activate",
+  "version": "1.0.1",
+  "description": "Library for sms-activate.ru API",
+  "main": "lib/index.js",
+  "repository": "https://github.com/Jsopn/sms-activate",
+  "author": "Evgeniy Jsop <evgeniy@jsop.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}

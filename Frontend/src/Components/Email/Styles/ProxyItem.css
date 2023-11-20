@@ -1,0 +1,62 @@
+.proxyitem {
+  display: grid;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  border-radius: 0.25rem;
+  -ms-grid-columns: 1fr 7.5rem 3.75rem;
+  grid-template-columns: 1fr 7.5rem 3.75rem;
+  background-color: #252330;
+  font-weight: 500;
+  font-size: 0.875rem;
+  height: 40px !important;
+  color: #fff;
+  border: 0.0625rem solid transparent;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.proxyitem:hover {
+  background: #393645;
+  border: 0.0625rem solid #97dddd;
+  border-radius: 0.25rem;
+}
+
+.proxyitem :nth-child(2) {
+  color: #97dddd;
+}
+
+.proxyitem div:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.proxyitem svg {
+  cursor: pointer;
+}
+/*# sourceMappingURL=ProxyItem.css.map */
+
+.proxyitem div.blue {
+  color: #97dddd !important;
+}
+
+.proxyitem div.red {
+  color: #db5858 !important;
+}
+
+.proxyitem div.green {
+  color: #73ff9a !important;
+}
+
+.taskVirtual::-webkit-scrollbar {
+  display: none;
+}

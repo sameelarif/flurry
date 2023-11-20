@@ -1,0 +1,15 @@
+.sms {
+  padding: 1rem 2rem;
+  background: #16141e;
+  border: 0.0625rem solid #312e42;
+  border-radius: 0.375rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+
+  .btn {
+    max-width: 15.625rem;
+    width: 100%;
+  }
+}

@@ -1,0 +1,43 @@
+button.custombtn {
+  color: #fff !important;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.8125rem 0;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  max-width: 15.625rem;
+  &.primary {
+    background-color: #97dddd;
+  }
+  &.red {
+    background-color: #f43541;
+  }
+  &.yellow {
+    background-color: #ffad4d;
+  }
+  &.black {
+    background-color: #252330;
+    color: #97dddd !important;
+  }
+  svg {
+    margin-right: 0.3125rem;
+  }
+
+  &.w-full {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  &.small {
+    max-width: 9.375rem;
+    padding: 0.75rem 0 !important;
+  }
+
+  &.m-l {
+    margin-left: 0.3125rem;
+  }
+}

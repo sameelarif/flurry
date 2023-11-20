@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,QADM,CACN,SAAS,CAAC;EACR,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,QAAQ;EACnB,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,IAAI;CACZ;;AANH,AAQE,QARM,CAQN,KAAK,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,QAAQ;EACzB,WAAW,EAAE,MAAM;CACpB",
+    "sources": [
+        "Webhook.scss"
+    ],
+    "names": [],
+    "file": "Webhook.css"
+}

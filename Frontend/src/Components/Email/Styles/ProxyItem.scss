@@ -1,0 +1,34 @@
+.proxyitem {
+  display: grid;
+  padding: 0.625rem 1rem;
+  border-radius: 0.25rem;
+  grid-template-columns: 1fr 7.5rem 3.75rem;
+  background-color: #252330;
+  font-weight: 500;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  border: 0.0625rem solid transparent;
+  align-items: center;
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    background: #393645;
+    border: 0.0625rem solid #97dddd;
+    border-radius: 0.25rem;
+  }
+
+  & :nth-child(2) {
+    color: #97dddd;
+  }
+
+  & div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  svg {
+    cursor: pointer;
+  }
+}
