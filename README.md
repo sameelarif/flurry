@@ -1,6 +1,6 @@
 # Flurry
 
-Made in collaboration with @camdressler.
+Made in collaboration with [@camdressler](https://github.com/camdressler).
 
 ## About
 
