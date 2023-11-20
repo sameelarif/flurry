@@ -4,6 +4,7 @@ Made in collaboration with @camdressler.
 
 ## About
 
+This repository showcases a desktop tool made for the purpose of creating (mass) accounts for various websites in a swift and easy manner. In order to do so, multiple factors need to be circumvented:
 
 - Captcha (reCAPTCH, hCaptcha)
 - SMS Verification
